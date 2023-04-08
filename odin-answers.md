@@ -337,3 +337,15 @@
 
 ## **What are the 3 defined values for the flex shorthand flex:auto?**
 > flex-grow: 1, flex-shrink: 1, flex-basis: auto
+
+## **How do you make flex items arrange themselves vertically instead of horizontally?**
+> by using flex-direction: column declaration in the parent element
+
+## **In a column flex-container, what does flex-basis refer to?**
+> the height of the flex items
+
+## **In a row flex-container, what does flex-basis refer to?**
+> the width of the flex items
+
+## **Why do the previous two questions have different answers?**
+> bwcause the direction or the axes of the flex items are different
