@@ -348,4 +348,13 @@
 > the width of the flex items
 
 ## **Why do the previous two questions have different answers?**
-> bwcause the direction or the axes of the flex items are different
+> because the direction or the axes of the flex items are different
+
+## **What is the difference between justify-content and align-items?**
+> the difference between justify-content and align-items is the direction or the axis that they work. Justify-content control the distribution of elements in the primary/main axis, while align-items control the position of elements across the cross axis.
+
+## **How do you use flexbox to completely center a div inside a flex container?**
+> using justify-content: center and align-items: center
+
+## **What’s the difference between justify-content: space-between and justify-content: space-around?**
+> space-between: items are evenly distributed along the line, first item is on the start line, last item on the end line. space-around: items are evenly distributed along the line with equal space around them.
