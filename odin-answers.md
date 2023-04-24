@@ -358,3 +358,42 @@
 
 ## **What’s the difference between justify-content: space-between and justify-content: space-around?**
 > space-between: items are evenly distributed along the line, first item is on the start line, last item on the end line. space-around: items are evenly distributed along the line with equal space around them.
+
+## **Name the three ways to declare a variable**
+> var, let, const
+
+## **Which of the three variable declarations should you avoid and why?**
+> var, because it is old and could cause unexpected result
+
+## **What rules should you follow when naming variables?**
+> using number, letter, $, and/or _. Using camel case. Don't use number as the first character.
+
+## **What happens when you add numbers and strings together?**
+> it will concatenate
+
+## **How does the Modulo (%), or Remainder, operator work?**
+> it returns the value of the remainder of divisions
+
+## **Explain the difference between == and ===**
+> the difference between == and === is the former does not evaluate the value types while the latter does
+
+## **When would you receive a NaN result?**
+> when I subtract string with number
+
+## **How do you increment and decrement a number?**
+> using ++ and -- in a variable
+
+## **Explain the difference between prefixing and postfixing increment/decrement operators**
+> prefixing increment/decrement immediately store the value while postfixing increment/decrement does not
+
+## **What is operator precedence and how is it handled in JS?**
+> operator precedence is prioritization between operators that determine which operator would be evaluated first. Every operators has its own precedence number. The one with the larger precedence executes first. If the precedence is the same, the execution order is from left to right
+
+## **How do you access developer tools and the console?**
+> F12 then go to console tab
+
+## **How do you log information to the console?**
+> using console.log()
+
+## **What does unary plus operator do to string representations of integers? eg. +”10”**
+> it converts the string type to number
