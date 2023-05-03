@@ -397,3 +397,56 @@
 
 ## **What does unary plus operator do to string representations of integers? eg. +”10”**
 > it converts the string type to number
+
+## **What are the eight data types in JavaScript?**
+> number, boolean, string, null, undefined, bigInt, symbol, object
+## **Which data type is NOT primitive?**
+> object
+
+## **What is the relationship between null and undefined?**
+>  they are both primitive values. They are both falsy. They are loosely equal. They are a type of its own
+
+## **What is the difference between single, double, and backtick quotes for strings?**
+> nothing really differs between single and double quote, while backtick quote (template literals) allowing for extended functionality like multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates
+
+## **What is the term for joining strings together?**
+> concatenate string
+
+## **Which type of quote lets you embed variables/expressions in a string?**
+> the backtick one
+
+## **How do you embed variables/expressions in a string?**
+> using ${expressions}
+
+## **How do you use escape characters in a string?**
+> using backslash
+
+## **What is the difference between the slice/substring/substr string methods?**
+> slice() extracts a part of a string and returns the extracted part in a new string. substring() is similar to slice(). The difference is that start and end values less than 0 are treated as 0 in substring(). substr() is similar to slice(). The difference is that the second parameter specifies the length of the extracted part.
+
+## **What are the three logical operators and what do they stand for?**
+> AND (&&), OR (||), NOT (!). OR || returns the first truthy value or the last one if no truthy value is found. AND returns the first falsy value or the last value if none were found. NOT converts the operand to boolean type: true/false and returns the inverse value
+
+## **What are the comparison operators?**
+> comparison operators are operators that compare values and return boolean value
+
+## **What are truthy and falsy values?**
+> truthy and falsy values are the inherent boolean value of any values 
+
+## **What are the falsy values in JavaScript?**
+> false, 0, '' (empty string), null, undefined, NaN
+
+## **What are conditionals?**
+> conditional statements are used to perform different actions based on different conditions
+
+## **What is the syntax for an if/else conditional?**
+> if (expression) {} else {}
+
+## **What is the syntax for a switch statement?**
+> switch (expression){ case x: case y: default: }
+
+## **What is the syntax for a ternary operator?**
+> boolean ? expression1 : expression2
+
+## **What is nesting?**
+> put similar logic structures or code blocks inside of another (conditional (if) inside of another conditional, etc)
