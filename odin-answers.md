@@ -450,3 +450,15 @@
 
 ## **What is nesting?**
 > put similar logic structures or code blocks inside of another (conditional (if) inside of another conditional, etc)
+
+## **How do you open developer tools?**
+> F12 or right-click the element and inspect or CTRL + Shift + C or From the Chrome Menu > More Tools > Developer Tools
+
+## **How do you change screen size of a website using developer tools?**
+> using Toggle Device Toolbar menu
+
+## **What is a breakpoint?**
+> a breakpoint is a tool or a way to  help debug codes by pausing the execution of codes at the specific line-of-code depending on where the breakpoint is fired or triggered
+
+## **How do you set a breakpoint?**
+> every breakpoint type has a slightly different way to set, for example Line-of-code breakpoints: Click the Sources tab.Open the file containing the line of code you want to break on. Go to the line of code. To the left of the line of code is the line number column. Click on it. A blue icon appears on top of the line number column.
