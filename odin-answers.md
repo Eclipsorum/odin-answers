@@ -461,4 +461,22 @@
 > a breakpoint is a tool or a way to  help debug codes by pausing the execution of codes at the specific line-of-code depending on where the breakpoint is fired or triggered
 
 ## **How do you set a breakpoint?**
-> every breakpoint type has a slightly different way to set, for example Line-of-code breakpoints: Click the Sources tab.Open the file containing the line of code you want to break on. Go to the line of code. To the left of the line of code is the line number column. Click on it. A blue icon appears on top of the line number column.
+> every breakpoint type has a slightly different way to set, for example Line-of-code breakpoints: Click the Sources tab.Open the file containing the line of code you want to break on. Go to the line of code. To the left of the line of code is the line number column. Click on it. A blue icon appears on top of the line number column
+
+## **What are functions useful for?**
+> functions are useful for storing some pieces of code or actions that are going to be used many times over and then calling that code whenever we need it rather than having to type out the same code multiple times
+
+## **How do you invoke a function?**
+> by typing the function's name and append parentheses next to it (e.g alert())
+
+## **What are anonymous functions?**
+> anonymous functions are a function that has no name to it. It is used as a function expression (e.g in a function's argument or a value for assigned variable)
+
+## **What is function scope?**
+> function scope determines whether variables and other things defined are accessible within or outside function
+
+## **What are return values?**
+> return values are a value that is returned by a function
+
+## **What are arrow functions?**
+> arrow functions are just like anonymous functions which is a function expression (e.g in a function's argument or a value for assigned variable) but have a cleaner syntax
