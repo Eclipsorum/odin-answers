@@ -480,3 +480,24 @@
 
 ## **What are arrow functions?**
 > arrow functions are just like anonymous functions which is a function expression (e.g in a function's argument or a value for assigned variable) but have a cleaner syntax
+
+## **What are the three stages in the problem solving process?**
+> understand the problem, plan, divide and conquer
+
+## **Why is it important to clearly understand the problem first?**
+> because the solution of the problem can only be found/devised after we understand the problem first
+
+## **What can you do to help get a clearer understanding of the problem?**
+> write/explain the problem with our own words and make a diagram out of it if needed
+
+## **What are some of the things you should do in the planning stage of the problem solving process?**
+> determine whether the program has user interface, what is the input, what is the desired output, what are the steps or algorithms to reach the desired output, write pseudocode based on that algorithms
+
+## **What is an algorithm?**
+> algorithm is step-by-step processes that has to be taken to reach a certain goal. In computer programming, algorithm is some steps that has to be taken or executed by a program to solve a problem
+
+## **What is pseudocode?**
+> pseudocode is an ordered step or algorithm that a program has to take/execute written in the form of a high abstraction that is easy to read and understand by humans (could be in plain English)
+
+## **What are the advantages of breaking a problem down and solving the smaller problems?**
+> it makes the problem easier to understand. It makes the problem less intimidating. it makes it easier to find the solution. it saves time and energy, etc
