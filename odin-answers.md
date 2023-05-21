@@ -501,3 +501,12 @@
 
 ## **What are the advantages of breaking a problem down and solving the smaller problems?**
 > it makes the problem easier to understand. It makes the problem less intimidating. it makes it easier to find the solution. it saves time and energy, etc
+
+## **What are three reasons why you may see a TypeError?**
+> trying to use a value in an inappropriate way, trying to modify a value that cannot be changed, trying to passed an argument that is incompatible  with the expected function's type
+
+## **What is the key difference between an error and a warning?**
+> when we have errors, the program or program's processes will be terminated and prevent further action, while a warning may not necessarily crashed the program
+
+## **What is one method you can use to resolve an error?**
+> try google, use debugger, use console, etc 
