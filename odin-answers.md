@@ -509,4 +509,13 @@
 > when we have errors, the program or program's processes will be terminated and prevent further action, while a warning may not necessarily crashed the program
 
 ## **What is one method you can use to resolve an error?**
-> try google, use debugger, use console, etc 
+> try google, use debugger, use console, etc
+
+## **Why is it important to write clean code?**
+> because clean code makes the code easy to read for developer(s) to understand, which in turn makes future development and/or debugging much easier and effective
+
+## **Name 5 clean code principles previously mentioned**
+> avoid making extremely lengthy function, pay attention to indentation, use naming standards for variable and function, make explanatory comments, don't abuse and overuse comment, caution when changing code, etc
+
+## **What is the difference between good comments and bad comments?**
+> good comment answers the question why not how, it can also explains algorithms/procedures that is not  completely obvious at the first glance, it can also explains the rationale why the developer using certain methods rather than other alternative methods. Bad comment on the other hand explains how the code works even though the code is already self-explanatory, it can also be irrelevant to the code itself (e.g state the address of the coder or any other personal explanatory notes, etc)
