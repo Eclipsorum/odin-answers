@@ -519,3 +519,33 @@
 
 ## **What is the difference between good comments and bad comments?**
 > good comment answers the question why not how, it can also explains algorithms/procedures that is not  completely obvious at the first glance, it can also explains the rationale why the developer using certain methods rather than other alternative methods. Bad comment on the other hand explains how the code works even though the code is already self-explanatory, it can also be irrelevant to the code itself (e.g state the address of the coder or any other personal explanatory notes, etc)
+
+## **What is an array?**
+> an array is a variable that can hold value(s)
+
+## **What are arrays useful for?**
+> arrays are useful for storing many values with a single name which can be accessed and/or iterated by its index number
+
+## **How do you access an array element?**
+> by using its variable name followed by its index number enclosed by square brackets "[]" (e.g names[2])
+
+## **How do you change an array element?**
+> by assigning new value to it, e.g names[3] = "James"
+
+## **What are some useful array properties?**
+> array.length
+
+## **What are some useful array methods?**
+> Array.isarray, Array.prototype.find(), Array.prototype.findIndex()
+
+## **What are loops useful for?**
+> loops are useful for doing repetitive tasks
+
+## **What is the break statement?**
+>  break keyword is used inside a loop to exit the looping process. In other words, 'break' is used to break out of the loop
+
+## **What is the continue statement?**
+> continue keyword is used inside a loop to skip current iteration into the next one.
+
+## **What is the advantage of writing automated tests?**
+> writing automated tests is more productive than writing code without tests as it saves times for us to check our code's desired output.
