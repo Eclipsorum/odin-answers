@@ -549,3 +549,51 @@
 
 ## **What is the advantage of writing automated tests?**
 > writing automated tests is more productive than writing code without tests as it saves times for us to check our code's desired output.
+
+## **What is the DOM?**
+> DOM (Document Object Model) is a tree-like representation of a webpage or an HTML document that contain "nodes" with differing relationships depending on how they are arrange in the HTML document
+
+## **How do you target the nodes you want to work with?**
+> by using "selectors" like the CSS-selectors (div, .class, #id) or relational selectors (firstElementChild) and then use document.querySelector() function
+
+## **How do you create an element in the DOM?**
+> by using document.createElement(tagName) function
+
+## **How do you add an element to the DOM?**
+> by using parentNode.appendChild(childNode) function
+
+## **How do you remove an element from the DOM?**
+> by using parentNode.removeChild(childNode) function
+
+## **How can you alter an element in the DOM?**
+> there are many element's properties that can be altered namely attributes (by using element.setAttribute() function), adding class (by using element.classList.add() function), adding text (by using element.textContent() function), adding HTML (by using element.innerHTML() function)
+
+## **When adding text to a DOM element, should you use textContent or innerHTML? Why?**
+> by adding text, it is strongly recommended to use the textContent function because using innerHTML could pose security risks if not done correctly
+
+## **Where should you include your JavaScript tag in your HTML file when working with DOM nodes?**
+> we can include the JavaScript tag in the bottom of the HTML file or preferebly in the <head> section and include the defer keyword to it
+
+## **How do “events” and “listeners” work?**
+> events are actions that happens in our webpages like mouse-click or keypresses which we can manipulate with JavaScript to listen to our webpages and react to it. Basically we can make our webpage to react dynamically on certain events by assign an event listener to our webpages (or webpages' elements) 
+
+## **What are three ways to use events in your code?**
+> you can specify function attributes directly on your HTML elements, you can set properties of form on[eventType] (onclick, onmousedown, etc.) on the DOM nodes in your JavaScript, or you can attach event listeners to the DOM nodes in your JavaScript. Event listeners are definitely the preferred method
+
+## **Why are event listeners the preferred way to handle events?**
+> because it is more clean, flexible and powerful as it can handle multiple event listener
+
+## **What are the benefits of using named functions in your listeners?**
+> using named functions can clean up your code considerably, and is a really good idea if the function is something that you are going to want to do in multiple places
+
+## **How do you attach listeners to groups of nodes?**
+> by using document.querySelectorsAll() function to select multiple node (nodelist) and then using nodeList.forEach() function and for each node assign it the event listener
+
+## **What is the difference between the return values of querySelector and querySelectorAll?**
+> element.querySelector(selector) - returns a reference to the first match of selector. element.querySelectorAll(selectors) - returns a “nodelist” containing references to all of the matches of the selectors
+
+## **What does a “nodelist” contain?**
+> an array-like object which contain a node of DOM references
+
+## **Explain the difference between “capture” and “bubbling”.**
+> the bubbling principle happens when an event occurs on an element, it first runs on the handler on it (the element where the event first started), and then on its parent, then all the way up to the other ancestors. In other words, it is a bottom-up approach of the event propagation process. On the other hand, the capture principle is the opposite of the bubbling principle. The capture principle happens when an event occurs on an element, it first runs on the very top ancestors and then move all the way down to the target element when the event occured. In other words, it is a top-down approach of the event propagation process
