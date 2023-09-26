@@ -597,3 +597,15 @@
 
 ## **Explain the difference between “capture” and “bubbling”.**
 > the bubbling principle happens when an event occurs on an element, it first runs on the handler on it (the element where the event first started), and then on its parent, then all the way up to the other ancestors. In other words, it is a bottom-up approach of the event propagation process. On the other hand, the capture principle is the opposite of the bubbling principle. The capture principle happens when an event occurs on an element, it first runs on the very top ancestors and then move all the way down to the target element when the event occured. In other words, it is a top-down approach of the event propagation process
+
+## **What is the difference between objects and arrays?**
+> objects have key:value pair while arrays only has value
+
+## **How do you access object properties?**
+> by using he dot notation: obj.property. Alternatively we can use square brackets notation obj["property"]. Square brackets allow taking the key from a variable, like obj[varWithKey]
+
+## **What is Array.prototype.map() useful for?**
+> Array.prototype.map() is useful for doing something to each of the array value and returning a new array
+
+## **What is Array.prototype.reduce() useful for?**
+> Array.prototype.reduce() is useful for doing something to each of the array value by using the returned result from previous iteration and return a new value by the end of the indices
