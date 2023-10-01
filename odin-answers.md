@@ -609,3 +609,17 @@
 
 ## **What is Array.prototype.reduce() useful for?**
 > Array.prototype.reduce() is useful for doing something to each of the array value by using the returned result from previous iteration and return a new value by the end of the indices
+
+## **Why should you use Emmet?**
+> Because Emmet can improve our workflow or productivity at least twice as much when doing web projects with HTML and CSS
+
+## **What are some useful Emmet abbreviations?**
+> HTML boilerplate generator, wrap with abbreviation, remove tags, toggle comment, etc
+## **What syntax would you use to create this element <p class="text"></p>?**
+> p.text
+
+## **What syntax expands to an element with a child element inside of it? For example: <div><p></p></div>**
+> ">" e.g div>p
+
+## **What syntax would you use to create three elements that have the same class name?**
+> div.example*3
