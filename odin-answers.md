@@ -623,3 +623,12 @@
 
 ## **What syntax would you use to create three elements that have the same class name?**
 > div.example*3
+
+## **What is the xmlns attribute?**
+> xmlns stands for “XML NameSpace”. This specifies what dialect of XML you’re using.
+
+## **What are some situations where you wouldn’t want to use SVG?**
+> complex and detailed images, photorealistic images, complex textures, etc
+
+## **What are the benefits of “inlining” your SVGs? What are the drawbacks?**
+> one of the benefit of inlining SVGs is we can modifies the SVG codes with CSS and/or JS, but the obvious drawback is it makes our codes less readable and less cacheable
