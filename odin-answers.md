@@ -632,3 +632,16 @@
 
 ## **What are the benefits of “inlining” your SVGs? What are the drawbacks?**
 > one of the benefit of inlining SVGs is we can modifies the SVG codes with CSS and/or JS, but the obvious drawback is it makes our codes less readable and less cacheable
+
+## **What is a table?**
+> a table is a set of structured data that comprise of columns and rows
+
+## **Why is it a bad idea to use HTML Tables for page layout?**
+> because using HTML tables for page layout can cause unnecessary complex structure which makes our code harder to write, maintain, and debug. It can also make our webpage less responsive to change, and on top of that, it also reduces accessibility for visually impaired users
+
+## **What are caption elements useful for?**
+> caption elements inside a table element is used for explaining what data the table represents in a simple and concise sentences
+
+## **What is the scope attribute?**
+>  scope attribute is used to differentiate whether a table header is a column, row, column group, or row group. It is primarily used for accessibility purpose for visually impaired users
+
