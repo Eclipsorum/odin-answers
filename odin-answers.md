@@ -645,3 +645,6 @@
 ## **What is the scope attribute?**
 >  scope attribute is used to differentiate whether a table header is a column, row, column group, or row group. It is primarily used for accessibility purpose for visually impaired users
 
+## **Why would you want to use a CSS reset?**
+> to mitigate or fix browser CSS defaults inconsistencies
+
