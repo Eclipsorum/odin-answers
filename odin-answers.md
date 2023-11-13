@@ -648,3 +648,11 @@
 ## **Why would you want to use a CSS reset?**
 > to mitigate or fix browser CSS defaults inconsistencies
 
+## **Why would you want to use em or rem for font-size instead of px?**
+> using a relative size like rem to define font sizes across your website is recommended. Many browsers allow users to change the base font-size to increase readability. If at all possible, it is advisable to respect a user’s wishes regarding font size
+
+## **What are some instances where you might want to use vh and vw?**
+> viewport units can be used for responsive typography, Full-Height Layouts, Hero Images, and Sticky Footers, fluid aspect ratios, etc
+
+## **What are some instances where you might want to use px instead of a relative unit?**
+> we can use px for things like margin and padding, while using relative size for font-size
