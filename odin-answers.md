@@ -656,3 +656,15 @@
 
 ## **What are some instances where you might want to use px instead of a relative unit?**
 > we can use px for things like margin and padding, while using relative size for font-size
+
+## **What are the 2 ways to add fonts that are not installed on a user’s computer?**
+> by using online font libraries (e.g., Google Fonts) or downloaded fonts
+
+## **What is the ‘system font stack’ and why would you want to use it?**
+> 'system font stack' is a collection of font-family to be used by a website that matches what the current OS uses, so the users don't have to download or import additional font. Using a stack like this often produces pleasing results, especially if you’re going for a somewhat ‘neutral’ font style and also can boost performance because the browser doesn’t have to download any font files, it’s using one it already had
+
+## **Which property would you use to increase or decrease the space between letters in a word?**
+> letter-spacing 
+
+## **Which property would you use to increase or decrease the space between lines in a paragraph?**
+> line-height
